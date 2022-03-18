@@ -1,5 +1,26 @@
 hi bhai
-  bhai ye hai a = 13;
-  bhai ye hai b = 21;
-  bol bhai 'Hello world!';
+  bhai ye hai max_battery = 100;
+  bhai ye hai almost_full_battery = 95;
+  bhai ye hai charger_level = 23;
+  
+  bol bhai 'Connect to charger, If battery percentage is below 25 %';
+  bol bhai 'Now my battery level is ', charger_level, '%';
+  bol bhai "So I've to connect to charger.";
+  
+  jab tak bhai (charger_level < almost_full_battery) {
+    charger_level = charger_level + 5;
+
+    bol bhai "Now it's charged to ", charger_level, "%";
+      
+    agar bhai (charger_level > 60 && charger_level < 85){
+      bol bhai "Phone battery is now above ", charger_level, "%";
+    }
+    agar bhai (charger_level > 85){
+      bol bhai 'Phone battery is now above 85 %';
+      bas kar bhai;
+    }
+    
+  }
+  bol bhai 'Phone has been disconnected from charger';
+  bol bhai 'Only ', (max_battery - charger_level), ' % left to 100 %';
 bye bhai
