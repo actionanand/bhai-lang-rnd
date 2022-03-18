@@ -22,5 +22,5 @@ hi bhai
     
   }
   bol bhai 'Phone has been disconnected from charger';
-  bol bhai 'Only ', (max_battery - charger_level), ' % left to 100 %';
+  bol bhai 'Only ', (max_battery - charger_level), '% left to 100 %';
 bye bhai

@@ -12,7 +12,7 @@
 ## How to run this project
 
 ```bash
-npm start
+npm run phone
 ```
 
 ## Resources

@@ -4,7 +4,7 @@
   "description": "It's rough work of 'Bhai-Lang', a toy programing language",
   "main": "index.js",
   "scripts": {
-    "start": "bhailang src/main.bhai"
+    "phone": "bhailang src/phone-battery-level.bhai"
   },
   "keywords": [
     "bhai-lang",
